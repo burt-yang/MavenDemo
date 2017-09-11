@@ -15,13 +15,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
+  <!--<build>
     <finalName>demoApp</finalName>
     <plugins>
       <plugin>
-        <!--<groupId>org.eclipse.jetty</groupId>
+        &lt;!&ndash;<groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-maven-plugin</artifactId>
-        <version>9.4.6.v20170531</version>-->
+        <version>9.4.6.v20170531</version>&ndash;&gt;
         <groupId>org.apache.tomcat.maven</groupId>
         <artifactId>tomcat7-maven-plugin</artifactId>
         <version>2.2</version>
@@ -35,5 +35,5 @@
         </executions>
       </plugin>
     </plugins>
-  </build>
+  </build>-->
 </project>
